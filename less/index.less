@@ -56,5 +56,33 @@ table {
 html, body {
     height: 100%;
 }
+h1 {
+	text-align: center;
+}
+.sidenav {
+	height:100%;
+	& ul {
+		padding: 0px;
+		margin:0px;
+		list-style-type: none;
+		
+		& li {
+			display: block;
 
-fsdf
+			& a {
+				display: block;
+				text-decoration: none;
+				
+				&:hover {
+					background-color: #99;
+		
+				}
+				padding: 15px;
+			}
+				border-bottom: 1px solid #444;
+			}
+		}
+		border-right: 1px solid #444;
+	}
+
+	
