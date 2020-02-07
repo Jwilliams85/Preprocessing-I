@@ -109,7 +109,7 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: bullet;
 }
 blockquote,
 q {
@@ -134,39 +134,39 @@ html,
 body {
   height: 100%;
 }
-h1 {
-  text-align: center;
-  justify-content: center;
+header h1 {
   font-size: 35px;
   background: lightgray;
   width: 20vw;
+  text-align: center;
+  justify-content: center;
+  background-image: url("lance-anderson-OrpU0RA_HQ8-unsplash.jpg");
 }
 .sidenav {
   height: 50%;
   position: absolute;
-  left: 0;
+  right: 0;
   Width: 10vw;
-  height: 100vw;
+  height: 20vw;
+  margin-top: 20px;
   background: lightblue;
-  border-right: 1px solid #444;
 }
-.sidenav ul {
+ul {
   padding: 0px;
   margin: 0px;
   list-style-type: none;
+  border-right: 1px solid #444;
 }
-.sidenav ul li {
+ul li {
   display: block;
+  padding: 10px;
   border-bottom: 1px solid #444;
 }
-.sidenav ul li a {
+ul li a {
   display: block;
   text-decoration: none;
   padding: 15px;
 }
-.sidenav ul li a:hover {
+ul li a:hover {
   background-color: #999;
-}
-.middle content {
-  margin-left: 100px;
 }
